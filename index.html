@@ -4,12 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
@@ -17,12 +19,13 @@
         <h2>HTML</h2>
         <ul>
           <li>The head element contains information about the webpage.</li>
-          <li>The body element represents the visible content shown to the user</li>
-          <li>HTML attributes are always defined by the Beginning Element, never the closing element</li>
-          <li>Metadata is data about a webpage that the browser uses to Effectively Serve a webpage to users</li>
+          <li>The body element represents the visible content shown to the user.</li>
+          <li>HTML attributes are always defined by the Beginning Element, never the closing element.</li>
+          <li>Inside head elements, we use metadata tags.</li>
+          <li>Metadata is data about a webpage that the browser uses to Effectively Serve a webpage to users.</li>
           <li>Elements nesteld inside of other elements are called Child Elements.</li>
-          <li>Child Elements nestle together under Parent Elements</li>
-          <li>Semantic HTML Elements: the name of the elements describes its contents and the role it plays on a webpage</li>
+          <li>Child Elements nestle together under Parent Elements.</li>
+          <li>Semantic HTML Elements: the name of the elements describes its contents and the role it plays on a webpage.</li>
         </ul>
       </section>
 
@@ -30,7 +33,19 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>ENTER CSS NOTES HERE</li>
+          <li>CSS stands for Cascading Style Sheet, a programming language used to define how content is presented to users.</li>
+          <li>There are 3 ways to style a webpage in CSS:</li>
+        <ol>
+              <li> Inline CSS</li>
+              <li> Internal Style Sheet</li>
+              <li> External Style Sheet (this is most common)</li>
+        </ol>
+          <li>External Style Sheets keep all CSS Rules in a separate file. This makes design changes easier.</li>
+          <li>External Style sheets use Link Elements placed in the HTML's Head.</li>
+          <li>Margin properties are space Outside An Element.</li>
+          <li>Padding properties are space around content Inside An Element.</li>
+          <li>The Selector defines elements or atributes to which the rules, or declarations, will be applied.</li>
+          <li>Separation of Concerns is a practice by which code is separated into different files based on use.</li>
         </ul>
       </section>
 
@@ -38,9 +53,18 @@
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
-          <li>ENTER GIT NOTES HERE</li>
-          <li>git status: checks what branch we are currently on</li>
-          <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <li>Git is a version control system. It is free and open source.</li>
+          <li>Git is how GitHub talks to and operates locally on your computer.</li>
+          <li>git status: checks what branch you are currently on.</li>
+          <li>git checkout -b branch-name: creates a new branch and switches to it.</li>
+          <li>git init: initialize an existing directory as a Git repository.</li>
+          <li>git clone [url]: retrieve an entire repository from a hosted location via url.</li>
+          <li>git status: show modified files in working directory, staged for your next commit.</li>
+          <li>git branch: list your branches. a * will appear next to your current branch.</li>
+          <li>git merge: merge the specified branch's history into the current one.</li>
+          <li>git merge [alias]/[branch]: merge remote branch into your current branch to bring it up to date.</li>
+          <li>git push [alias][branch]: transmit local branch commits to local repository.</li>
+          <li>git pull: fetch and merge any commits from the tracaking branch.</li>
         </ul>
       </section>
 
@@ -48,7 +72,36 @@
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>ENTER JAVASCRIPT NOTES HERE</li>
+          <li>JavaScript adds INTERACTIVITY to a website. It takes a static HTML/CSS webpage and makes it active!</li>
+          <li>It does this, in part, through variables, strings, and organizing data types.</li>
+          <li>JavaScript is Case Sensetive.</li>
+          <li>API: aaplication programming interfaces.</li>
+          <li>Variables: containers that store value.</li>
+          <li>Comments: snippets of text added along with code.</li>
+          <li>Operator: a mathematical symbol that produces a value based on two values or variables.</li>
+          <li>Conditions: code structure used to test if an expression is true or not</li>
+          <li>Functions are a way of packaging a task completion that you wish to reuse. They often take arguments.</li>
+          <li>Arguments are bits of data a function needs to do their job (found in parentheses, separated by commas.)</li>
+          <li>We define a body of code as a function when it executes when you call the Function Name in your code.</li>
+          <li>Event/Event Handlers: Functionality requires code structures to Listen for activity and run code in response (like clicking.)</li>
+          <li>JavaScript is a Dynamic Language with Dynamic Types. This means variables aren't associated with a particular value type.</li>
+          <li>JavaScript is a Weakly Typed Language. This means it allows Implicit Type Conversions.</li>
+          <li>Primitive Values are important to Javascript. These are all non object type that define immutabel values.</li>
+          <li>Primitive Values are represented directly at the lowest level of the language.</li>
+          <li>Some examples of Types of Primitive Values are: Null, Undefined, Boolean (a true false binary value), Number, BigInt, and String.</li>
+          <li>Symbol Types: a unique and immutable primitive value that may be used as the Key of an Object Property.</li>
+          <li>Objects in Comp Science are a value in memory which is possibly referenced by an identifier.</li>
+          <li>In JavaScript, Objects are the only Mutable Values; Functions are Callable Values.</li>
+          <li>Control Flow: the order in which a computer executes code in a script.</li>
+          <li>Array: group of related data contained by a Single Variable. Arrays are fundemental functions of JavaScript.</li>
+          <li>For loops are ways of telling the computer to handle an array.</li>
+          <li>For loops contain 3 important statements</li>
+        <ol>
+          <li>Starting Point</li>
+          <li>Condtion</li>
+          <li>How array should Iterate Over Each Item</li>
+        </ol>
+          <li>Length is a special property of an array that indicates the number of items in the array.</li>
         </ul>
 
       </section>
@@ -57,8 +110,9 @@
     </main>
 
     <footer>
-      <p>I can code!</p>
+      <p>Yippee!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
 
